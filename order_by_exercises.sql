@@ -34,3 +34,7 @@ SELECT first_name, last_name
 FROM employees
 WHERE last_name LIKE CONCAT('%', 'q' ,'%') 
  AND last_name NOT LIKE CONCAT('%', 'qu' ,'%');
+
+
+
+ 
