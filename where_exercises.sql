@@ -1,3 +1,4 @@
+-- test
 SELECT first_name, last_name, gender
 FROM employees
 WHERE gender = 'M' AND (first_name ='Irena' OR first_name = 'Vidya' OR first_name = 'Maya');
@@ -28,7 +29,7 @@ FROM employees
 WHERE last_name LIKE '%q%' 
  AND last_name NOT LIKE '%qu%';
 
- -- safer version of above
+ -- safer version of above because of join
  SELECT first_name, last_name
 FROM employees
 WHERE last_name LIKE CONCAT('%', 'q' ,'%') 
