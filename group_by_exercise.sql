@@ -1,3 +1,5 @@
+-- Exercise 8.7.4 Group By
+
 SELECT title
 FROM titles
 GROUP BY title ASC;

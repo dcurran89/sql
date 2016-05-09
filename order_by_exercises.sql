@@ -1,3 +1,4 @@
+-- Exercise 8.7.4 Order By
 
 SELECT first_name, last_name, gender
 FROM employees
