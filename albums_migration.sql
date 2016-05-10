@@ -1,8 +1,8 @@
 USE codeup_test_db;
 
-DROP TABLE IF EXISTS albums_migration;
+DROP TABLE IF EXISTS albums;
 
-CREATE TABLE albums_migration (
+CREATE TABLE albums (
     id INT UNSIGNED NOT NULL AUTO_INCREMENT,
     Artist VARCHAR(100) NOT NULL,
     Name VARCHAR(100) NOT NULL,

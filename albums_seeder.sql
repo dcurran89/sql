@@ -1,8 +1,8 @@
 USE codeup_test_db;
 
-TRUNCATE albums_migration;
+TRUNCATE albums;
 
-INSERT INTO albums_migration (Artist, Name, Release_Date, Sales, Genre)
+INSERT INTO albums (Artist, Name, Release_Date, Sales, Genre)
 VALUES ('Michael Jackson', 'Thriller', 1982, 48.1, 'Pop, Rock, R&B'),
        ('AC/DC', 'Back in Black', 1980, 25.9,'Hard Rock'),
        ('Pink Floyd', 'Dark Side of the Moon', 1973, 22.7, 'Progressive Rock'),
